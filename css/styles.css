@@ -132,9 +132,23 @@ h1, h2, h3, h4, h5, h6 {
 /* news */
 
 /* contact */
-
-
-
+.center{
+    width: 200px;
+    margin:auto;
+}
+.center input{
+    font-size: 18px;
+    border-radius: 4px;
+}
+.contact .center textarea{
+    border-radius: 4px;
+    font-size: 18;
+    width:300px;
+    height:100px;
+}
+.contact .center [type="submit"]{
+    background-color:var(--primary);
+}
 
 /* footer */
 .footer img {

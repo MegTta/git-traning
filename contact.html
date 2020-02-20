@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitTuto Design</title>
+    <meta name="description" content="GitTuto Design">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div include-html="includes/header.html"></div>
+    
+    <main class="fade-anim delay-5ms">
+        <section class="container contact">
+            <!-- contact content here -->
+            <div class="center">
+                <h2>Contactez Nous</h2>
+                <form action="#contact.html" method="POST">
+                    <label for="Email">Email:</label><br/>
+                    <input type="email" name="email" id="email" placeholder="Votre@email.fr" required><br/>
+                    <label for="object">Object:</label><br/>
+                    <input type="text" name="objet" id="objet" placeholder="Objet" required><br/>
+                    <label for="message" rows="4" cols="50" >Message:</label><br/>
+                    <textarea name="message" id="message"></textarea><br/>
+                    <input type="submit" value="Send" > 
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+    <div include-html="includes/footer.html"></div>
+
+    <script>const currentpage = 'contact';</script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
